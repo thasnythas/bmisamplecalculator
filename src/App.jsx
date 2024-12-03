@@ -89,13 +89,14 @@ function App() {
           </label>&nbsp;&nbsp;&nbsp;&nbsp;
         </fieldset>
         <label className="do">Weight (kg):</label>
-        <input
+     <input className="responsive-input mt md-0"
           type="number"
+        
           value={weight}
           onChange={(e) => setWeight(Number(e.target.value))}
         />
         <label className="do1">Height (cm):</label>
-        <input
+       <input className="responsive-input mt md-0"
           type="number"
           value={height}
           onChange={(e) => setHeight(Number(e.target.value))}
